@@ -1,13 +1,14 @@
 {
   "name": "react-family",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "webpack -p --progress --display-used-exports  --config webpack.config.js ",
     "dev": "webpack-dev-server --devtool source-map",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "standard-version"
   },
   "browserslist": [
     "defaults",
@@ -87,6 +88,7 @@
     "postcss-preset-env": "^6.7.0",
     "postcss-safe-parser": "^4.0.2",
     "prepack-webpack-plugin": "^1.1.2",
+    "standard-version": "^8.0.0",
     "style-loader": "^1.2.1",
     "sugarss": "^2.0.0",
     "ts-loader": "^7.0.4",
