@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/robinv8/react-family/compare/prefix_v1.9.0...prefix_v1.10.0) (2020-05-26)
+
 ## [1.9.0](https://github.com/robinv8/react-family/compare/prefix_v1.8.0...prefix_v1.9.0) (2020-05-26)
 
 ## [5.1.0](https://github.com/robinv8/react-family/compare/v5.0.0...v5.1.0) (2020-05-26)
