@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/robinv8/react-family/compare/prefix_v1.2.0...prefix_v1.3.0) (2020-05-26)
+
+
+### Features
+
+* 添加新功能 ([7d1f8aa](https://github.com/robinv8/react-family/commit/7d1f8aaf498d5757991efec3e38b1b014c898daf))
+
 ## 1.2.0 (2020-05-26)
 
 
