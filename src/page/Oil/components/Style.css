@@ -1,0 +1,11 @@
+.oilList .am-list-body::before,
+.oilList .am-list-body::after {
+  display: none !important;
+}
+.oilList .am-list-body,
+.orderWrap .am-list-body {
+  background: none;
+}
+.oilList .list-view-section-body {
+  min-height: 100vh;
+}

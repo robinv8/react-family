@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+img {
+  display: block;
+}
+
+input,
+textarea {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+input::-webkit-input-placeholder {
+  color: rgb(153, 153, 153);
+}
+textarea::-webkit-input-placeholder {
+  color: rgb(153, 153, 153);
+}
+select,
+option {
+  border: 0;
+  margin: 0;
+  appearance: none;
+  background: none;
+}
+test {
+  -webkit-touch-callout: none; /*系统默认菜单被禁用*/
+  -webkit-user-select: none; /*webkit浏览器*/
+  -khtml-user-select: none; /*早期浏览器*/
+  -moz-user-select: none; /*火狐*/
+  -ms-user-select: none; /*IE10*/
+  user-select: none;
+}
+.am-list-item {
+  padding: 0;
+  min-height: auto;
+}
+.am-list-item.am-list-item-middle .am-list-line {
+  justify-content: space-between;
+  padding: 0;
+}
+.am-list-item .am-list-line .am-list-extra {
+  padding: 0;
+  line-height: inherit;
+  text-align: left;
+  flex: 1;
+}

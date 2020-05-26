@@ -1,0 +1,32 @@
+.shanzhen .am-list-item {
+  padding-left: 0;
+  min-height: 35px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(235, 211, 219, 1);
+  box-shadow: 0px -2px 4px 0px rgba(180, 127, 137, 0.6);
+  border-radius: 40px;
+}
+.am-list-line {
+  padding-right: 0 !important;
+  display: flex;
+}
+.shanzhen .am-list-extra {
+  padding: 0 !important;
+  flex: 1;
+  height: 24px;
+  line-height: 24px;
+  font-family: PingFangSC-Regular;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: rgba(51, 37, 41, 1) !important;
+  text-align: center !important;
+}
+.shanzhen .am-list-item .am-list-line .am-list-arrow {
+  margin-right: 5px;
+}
+.shanzhen .am-list-item .am-list-line .am-list-arrow {
+  background-image: url('../../assets/Shanzhen/arrow.png') !important;
+  width: 12px !important;
+  height: 11px !important;
+  margin-right: 30px;
+}
