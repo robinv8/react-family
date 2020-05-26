@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/robinv8/react-family/compare/prefix_v1.7.0...prefix_v1.8.0) (2020-05-26)
+
+
+### Bug Fixes
+
+* :bug: 修复bug ([daf9dd0](https://github.com/robinv8/react-family/commit/daf9dd0e689a161aad79a03fe5d10c920e8f986d))
+
 ## [1.7.0](https://github.com/robinv8/react-family/compare/prefix_v1.6.0...prefix_v1.7.0) (2020-05-26)
 
 ## [1.6.0](https://github.com/robinv8/react-family/compare/prefix_v1.5.0...prefix_v1.6.0) (2020-05-26)
