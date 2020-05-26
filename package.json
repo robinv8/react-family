@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack -p --progress --display-used-exports  --config webpack.config.js ",
     "dev": "webpack-dev-server --devtool source-map",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "commit": "git-cz"
   },
   "browserslist": [
