@@ -5084,7 +5084,7 @@ https-browserify@^1.0.0:
 
 husky@^4.2.5:
   version "4.2.5"
-  resolved "https://registry.npm.taobao.org/husky/download/husky-4.2.5.tgz?cache=0&sync_timestamp=1586469908461&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhusky%2Fdownload%2Fhusky-4.2.5.tgz#2b4f7622673a71579f901d9885ed448394b5fa36"
+  resolved "https://registry.npm.taobao.org/husky/download/husky-4.2.5.tgz?cache=0&sync_timestamp=1586468409378&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhusky%2Fdownload%2Fhusky-4.2.5.tgz#2b4f7622673a71579f901d9885ed448394b5fa36"
   integrity sha1-K092Imc6cVefkB2Yhe1Eg5S1+jY=
   dependencies:
     chalk "^4.0.0"

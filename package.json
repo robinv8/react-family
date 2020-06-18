@@ -11,6 +11,11 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md && npm run changeissueurl",
     "changeissueurl": "replace 'https://github.com/robinv8/react-family/issues/' 'https://redmine.example.com/' CHANGELOG.md"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $GIT_PARAMS"
+    }
+  },
   "browserslist": [
     "defaults",
     "not ie < 11",
@@ -102,11 +107,6 @@
     "webpack-dev-server": "^3.10.3",
     "webpack-jarvis": "^0.3.2",
     "webpack-parallel-uglify-plugin": "^1.1.2"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -e $GIT_PARAMS"
-    }
   },
   "config": {
     "commitizen": {
