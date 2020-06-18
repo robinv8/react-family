@@ -3,7 +3,7 @@
  # @Date: 2020-06-18 13:54:15
  # @Author: robin
  # @LastEditors: robin
- # @LastEditTime: 2020-06-18 18:10:54
+ # @LastEditTime: 2020-06-18 18:11:21
 ### 
 #!/bin/bash
 echo "build start"
@@ -23,7 +23,7 @@ echo "-------------------------------------------------------------------------"
 
 git add .
 git commit -m "build: 前端构建"
-git pull origin $(git rev-parse --abbrev-ref HEAD)
+git pull origin $(git rev-parse --abbrev-ref HEAD) --allow-unrelated-histories 
 git push origin $(git rev-parse --abbrev-ref HEAD) --no-verify
 
 echo "-------------------------------------------------------------------------"
