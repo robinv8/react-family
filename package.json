@@ -13,7 +13,8 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -e $GIT_PARAMS"
+      "commit-msg": "commitlint -e $GIT_PARAMS",
+      "pre-push": "./deploy.sh"
     }
   },
   "browserslist": [
