@@ -3,7 +3,7 @@
  # @Date: 2020-06-18 13:54:15
  # @Author: robin
  # @LastEditors: robin
- # @LastEditTime: 2020-06-18 18:07:38
+ # @LastEditTime: 2020-06-18 18:10:30
 ### 
 #!/bin/bash
 echo "build start"
@@ -19,6 +19,7 @@ echo "build end"
 
 echo "push start"
 echo "-------------------------------------------------------------------------"
+
 
 git add .
 git commit -m "build: 前端构建"
