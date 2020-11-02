@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.17.0](https://github.com/robinv8/react-family/compare/v1.16.0...v1.17.0) (2020-11-02)
+
+
+### Features
+
+* **script:** 更新版本部署脚本 ([f2486ce](https://github.com/robinv8/react-family/commit/f2486ce3f1aed8e286f9ca1ebd56c4e77d524d0d))
+
 ## [1.16.0](https://github.com/robinv8/react-family/compare/v1.15.0...v1.16.0) (2020-05-26)
 
 ## 1.15.0 (2020-05-26)
